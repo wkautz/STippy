@@ -85,6 +85,7 @@ class MainActivity : AppCompatActivity() {
         if (etBase.text.isEmpty()) {
             tvTipAmount.text = ""
             tvTotalAmount.text = ""
+            tvPerPersonAmount.text = ""
             return
         }
         val baseAmount = etBase.text.toString().toDouble()
